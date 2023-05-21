@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.left{
+    width: 50%;
+    align-items: left;
+    text-align: left;
+}
+
+.mainTitle{
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.subTitle{
+    font-weight: bold;
+    margin-top: 20px;
+    font-weight: 20px;
+}
+
+.subText{
+    color: rgb(145, 134, 134);
+}
+
+.right{
+    width: 50%;
+}
+
+.video{
+    width: 680px;
+}

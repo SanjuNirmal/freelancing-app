@@ -1,0 +1,105 @@
+.container-profile {
+  display: flex;
+  /* flex-direction: row; */
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.left-container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-button-container {
+  display: flex;
+  /* flex: 1; */
+  flex-direction: row;
+  /* margin-left: 30px; */
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.icons-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.section {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+}
+
+.sectionTile {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+}
+
+.sectionDetails {
+  padding-bottom: 10px;
+  font-style: italic;
+  color: darkgray;
+}
+
+.content {
+  text-align: justify;
+}
+
+.text-color {
+  color: rgb(8, 34, 30);
+}
+
+.location {
+  padding-top: 10px;
+  color: darkslategrey;
+  font-weight: bold;
+}
+
+.user-name {
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-size: xx-large;
+  width: 180px;
+}
+
+.image {
+  margin-bottom: 30px;
+  /* margin-left: 200px; */
+  display: inline;
+}
+
+.padding {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  margin-right: 20vw;
+}
+
+.user-about-me {
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+/* middle section */
+.middle-section {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(5, 153, 37);
+  background-color: rgb(5, 153, 37);
+}
+
+/* right side menu */
+.right-container {
+  flex: 1;
+  flex-direction: row;
+  padding: 30px;
+  margin-right: 10px;
+}

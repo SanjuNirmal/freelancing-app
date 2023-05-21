@@ -1,0 +1,50 @@
+.slideContainer {
+  width: 100%;
+}
+
+.slider {
+  height: 1000px;
+}
+
+.imageScale {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  text-align: center;
+}
+
+.left {
+  width: 60%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(254, 255, 254);
+  border: 2px;
+  border-color: rgb(65, 37, 1);
+  border-radius: 10px;
+  padding: 20px;
+  color: rgb(65, 37, 1);
+  text-shadow: 5mm;
+  text-decoration: wavy;
+  align-items: center;
+}
+
+.padding-div {
+  height: 600px;  
+}
+
+.search {
+    width: 80%;
+    align-items: center;
+    margin-left: 80px;
+    color: aliceblue;
+    margin-top: 30px;
+}
+
+.buttonBottom{
+    margin-top: 20px;
+}

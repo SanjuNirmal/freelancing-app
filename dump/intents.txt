@@ -1,0 +1,89 @@
+
+ const body = {
+    mainTitle: data.mainTitle,
+    content: data.content,
+    category: checkboxRef.current.checked,
+    category2: checkboxRef.current.checked,
+    days: data.days,
+    price: data.price,
+  };
+
+  const res = await axios.post(`http://localhost:3420/api/login`, {
+      userName: email,
+      password: password,
+    });
+    console.log(res);
+    if (res.data.status === "200 OK") {
+      console.log("success");
+      // dispatch(login(res.data.token));
+    } else {
+      console.log("error");
+      // setError("Error Occurred While Logging In Please Try Again");
+    }
+
+   axios
+      .post(`http://localhost:3420/api/login`, {
+        userName: email,
+        password: password,
+      })
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+
+
+axios
+      .get(`http://localhost:3420/api/job/view_one`, {
+        id: id,
+      })
+      .then((res) => {
+        dispatch(setJobProfile(res.data.result));
+        console.log(res);
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+
+
+
+
+  axios
+      .post(`http://localhost:3420/api/job`, {})
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+
+
+      // <div className="padding-div" />
+
+
+      console.log(req.body.data);
+  const newEmail = new Email({
+    postedUser: req.body.dataForEmail.postedUser,
+    title: req.body.dataForEmail.title,
+    content: req.body.dataForEmail.content,
+  });
+
+
+// const result = await newEmail.save();
+
+
+/*<button
+          type="button"
+          class="btn btn-outline-light"
+          onClick={() => {
+            logoutFunction();
+          }}
+        >
+          SIGN OUT
+        </button>*/
+
+
+        <NavItem icon={<PlusIcon />} />
+      <NavItem icon={<BellIcon />} />
+      <NavItem icon={<MessengerIcon />} />

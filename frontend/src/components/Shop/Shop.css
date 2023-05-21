@@ -1,0 +1,123 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-button-items{
+    width: 60vw;
+    margin-top: 20px;
+    margin-left: 20vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.width-container{
+    width: 7vw;
+}
+
+.left-container {
+  width: 20vw;
+  margin-bottom: 10px;
+}
+
+.section {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.sectionTile {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sectionDetails {
+  padding-bottom: 10px;
+  font-style: italic;
+  color: darkgray;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  text-align: justify;
+  color: tomato;
+  margin-right: 10px;
+}
+
+.image {
+  width: 300px;
+  height: 100px;
+}
+
+.location {
+  padding-top: 10px;
+  color: darkslategrey;
+  font-weight: bold;
+}
+
+.header-top__seperator {
+  width: 100%;
+  border: none;
+  height: 2px;
+  margin-top: 2px;
+  background-color: black;
+}
+
+.padding-buttons {
+  margin-right: 15px;
+  justify-content: center;
+}
+
+/* card items in the settings */
+
+.card {
+  width: 360px;
+}
+
+.card-img-top {
+  height: 220px;
+}
+
+.middle-container {
+  width: 5vw;
+}
+
+.rightSideMenu {
+  justify-content: center;
+  text-align: center;
+  padding-left: 7px;
+  align-items: center;
+  padding-bottom: 20px;
+  width: 40vw;
+}
+
+.padding {
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+.component {
+  align-items: center;
+  justify-content: center;
+}
+
+.tileRight {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.itemRight {
+  padding-bottom: 10px;
+  color: chartreuse;
+}
+
+.sectionTile-cart {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+}
